@@ -1,0 +1,24 @@
+1. The Divisibility Filter
+Write a program that iterates through numbers from 1 to 50. For each number, if it is divisible by 3, print "Fizz"; if it is divisible by 5, print "Buzz"; and if it is divisible by both, print "FizzBuzz."
+2. The Factorial Calculator
+Ask the user for a positive integer. Use a while loop to calculate the factorial of that number (e.g., if the user enters 5, the output should be 120 because 5 \times 4 \times 3 \times 2 \times 1 = 120).
+3. Star Pyramid
+Ask the user for the number of rows. Use a loop to print a right-angled triangle of stars (*). For example, if the input is 3, it should print:
+*
+**
+***
+4. Sum of Input
+Create a program that continually asks the user to enter a number. The loop should only stop when the user enters the word "stop". After the loop , print the total sum of all the numbers entered.
+5. Vowel Counter
+Take a string input from the user. Use a for loop to iterate through the string and count how many vowels (a, e, i, o, u) are in the text.
+🟡 Tricky Problems
+6. Digit Summation
+Take a large integer from the user (like 9876). Without converting the number into a string, use a while loop and arithmetic operators (% and //) to find the sum of all its digits.
+7. Prime Number Validator
+Ask the user for a number and use a loop to determine if it is a prime number. Remember, a prime number is only divisible by 1 and itself.
+8. List Deduplication
+Start with a list that contains several duplicate numbers (e.g., [1, 2, 2, 3, 4, 4, 5]). Use a loop to create a new list that contains each number only once, without using the set() function.
+9. The Fibonacci Sequence
+Use a loop to generate and print the first 10 numbers of the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.
+10. Password Attempt Limiter
+Set a "secret password" variable. Use a while loop to give the user exactly 3 attempts to guess the password. If they get it right, print "Access Granted" and break the loop. If they fail 3 times, print "Account Locked."
